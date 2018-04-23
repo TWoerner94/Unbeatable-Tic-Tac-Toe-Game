@@ -110,3 +110,12 @@ h1 {
 .restartBtn:hover {
   background: #e1e1e1;
 }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  opacity: 0.8;
+}
