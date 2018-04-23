@@ -35,9 +35,10 @@ $(document).ready(function() {
   });
   $('.playOBtn').click(function() {
     humanPlayer = 'O';
-    player = 'O';
+    player = 'X';
     aiPlayer = 'X';
     addGameInfoCaption();
+    aiClick();
     $('.selectXOScreen').css('display', 'none');
     $('.gameScreen').css('display', 'inline-block');
     $('.restartBtn').css('display', 'inline-block');
