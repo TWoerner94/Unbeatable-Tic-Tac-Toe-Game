@@ -1,41 +1,42 @@
 <head>
   <title>Tic Tac Toe</title>
-  <link rel='stylesheet' type='text/css' href='style.css'>  
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script type="text/javascript" src='./script.js'></script>
+  <link rel='stylesheet' type='text/css' href='style.css'>
 </head>
 
 <body>
   <h1>Unbeatable Tic Tac Toe</h1>
 
-  <div class='selectScreen selectModeScreen'>
-    <h2 class='selectScreenCaption'>Do you want to play against a friend or the computer?</h2>
-    <button class='singlePlayerBtn'>Computer</button>
-    <button class='multiplayerBtn'>Friend</button>
+  <div class='select-screen' id='select-mode-screen'>
+    <h2 id='select-screen-caption'>Do you want to play against a friend or the computer?</h2>
+    <button id='single-player-btn'>Computer</button>
+    <button id='multiplayer-btn'>Friend</button>
   </div>
 
-  <div class='selectScreen selectXOScreen'>
-    <h2 class='selectScreenCaption'>Do you want to play as X or as O?</h2>
-    <button class='playXBtn'>X</button>
-    <button class='playOBtn'>O</button>
+  <div class='select-screen' id='select-xo-screen'>
+    <h2 id='select-screen-caption'>Do you want to play as X or as O?</h2>
+    <button id='play-x-btn'>X</button>
+    <button id='play-o-btn'>O</button>
   </div>
 
-  <div class='gameScreen'>
-    <h2 class='gameInfoCaption'></h2>
-    <div class='gameField'>
-      <div class='square 0'></div>
-      <div class='square 1'></div>
-      <div class='square 2'></div>
-      <div class='square 3'></div>
-      <div class='square 4'></div>
-      <div class='square 5'></div>
-      <div class='square 6'></div>
-      <div class='square 7'></div>
-      <div class='square 8'></div>
+  <div id='game-screen'>
+    <h2 id='game-info-caption'></h2>
+    <div id='game-field'>
+      <div class='square' id='0'></div>
+      <div class='square' id='1'></div>
+      <div class='square' id='2'></div>
+      <div class='square' id='3'></div>
+      <div class='square' id='4'></div>
+      <div class='square' id='5'></div>
+      <div class='square' id='6'></div>
+      <div class='square' id='7'></div>
+      <div class='square' id='8'></div>
     </div>
   </div>
 
-  <button class='restartBtn'>Restart</button>
-  
-  <div class='footer'>Designed and Programmed by Tim Wörner</div>
+  <button id='restart-btn'>Restart</button>
+
+  <footer>Designed and Programmed by Tim Wörner</footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src='./script.js'></script>
 </body>

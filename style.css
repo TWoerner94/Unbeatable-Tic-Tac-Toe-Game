@@ -2,7 +2,7 @@
 
 body * {
   text-align: center;
-  font-family: 'Montserrat Alternates', Arial;
+  font-family: "Montserrat Alternates", Arial;
 }
 
 body {
@@ -11,14 +11,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: #ccc;
 }
 
@@ -26,7 +26,7 @@ h1 {
   font-family: Montserrat, Arial;
 }
 
-.selectScreen {
+.select-screen {
   width: 60vw;
   padding: 40px 0;
   background-color: #999;
@@ -34,7 +34,7 @@ h1 {
   border-radius: 3px;
 }
 
-.selectScreen button {
+.select-screen button {
   width: 15vw;
   padding: 15px;
   margin: 0 20px;
@@ -44,48 +44,48 @@ h1 {
   border-radius: 2px;
 }
 
-.selectScreen button:hover {
+.select-screen button:hover {
   background: #c9c9c9;
 }
 
-.selectScreen button:focus {
+.select-screen button:focus {
   outline: 0;
 }
 
-.selectXOScreen {
+#select-xo-screen {
   display: none;
 }
 
-.gameScreen {
+#game-screen {
   display: none;
 }
 
-.gameField {
+#game-field {
   height: 300px;
   width: 320px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: space-between;
-      -ms-flex-align: space-between;
-          align-items: space-between;
+  -ms-flex-align: space-between;
+  align-items: space-between;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-.gameField .square {
+#game-field .square {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 33%;
   height: 33%;
   background: #eee;
@@ -93,11 +93,11 @@ h1 {
   font-size: 3em;
 }
 
-.gameField .square:hover {
+#game-field .square:hover {
   background: #f9f9f9;
 }
 
-.restartBtn {
+#restart-btn {
   display: none;
   margin-top: 15px;
   padding: 10px 30px;
@@ -107,11 +107,11 @@ h1 {
   background: #d9d9d9;
 }
 
-.restartBtn:hover {
+#restart-btn:hover {
   background: #e1e1e1;
 }
 
-.footer {
+footer {
   position: fixed;
   bottom: 0;
   width: 100%;
